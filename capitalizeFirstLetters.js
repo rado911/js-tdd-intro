@@ -11,4 +11,22 @@ function capitalizeFirstLetters(input) {
     }
 }
 
-console.log(capitalizeFirstLetters('radovan wilczek is stupid'))
+//first check if capitalizeFirstLetters is a function
+
+assert.strictEqual(typeof capitalizeFirstLetters, 'function');
+
+//check if this function converts a string with several words
+
+assert.strictEqual(capitalizeFirstLetters('one two three four five'), 'One Two Three Four Five');
+
+//check if this function converts a single word of single letter
+
+assert.strictEqual(capitalizeFirstLetters('a'), 'A');
+
+//as last check if this function works when input is an empty string
+
+
+assert.strictEqual(capitalizeFirstLetters(''), '');
+
+
+capitalizeFirstLetters('radovan wilczek is stupid')
