@@ -29,4 +29,4 @@ assert.strictEqual(capitalizeFirstLetters('a'), 'A');
 assert.strictEqual(capitalizeFirstLetters(''), '');
 
 
-capitalizeFirstLetters('radovan wilczek is stupid')
+capitalizeFirstLetters('Now you can test your function!')
