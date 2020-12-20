@@ -1,0 +1,26 @@
+{
+  "name": "TDD2-quest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capitalizeFirstLetters.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rado911/js-tdd-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rado911/js-tdd-intro/issues"
+  },
+  "homepage": "https://github.com/rado911/js-tdd-intro#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
